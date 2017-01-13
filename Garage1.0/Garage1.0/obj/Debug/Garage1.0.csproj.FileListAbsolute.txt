@@ -4,3 +4,9 @@ C:\Users\User\Documents\Visual Studio 2015\Projects\LexiconExcerciseOne\Garage1.
 C:\Users\User\Documents\Visual Studio 2015\Projects\LexiconExcerciseOne\Garage1.0\Garage1.0\obj\Debug\Garage1.0.csprojResolveAssemblyReference.cache
 C:\Users\User\Documents\Visual Studio 2015\Projects\LexiconExcerciseOne\Garage1.0\Garage1.0\obj\Debug\Garage1.0.exe
 C:\Users\User\Documents\Visual Studio 2015\Projects\LexiconExcerciseOne\Garage1.0\Garage1.0\obj\Debug\Garage1.0.pdb
+C:\Users\NaxNordic AB\Documents\Visual Studio 2015\Projects\Garage1.0\Garage1.0\Garage1.0\bin\Debug\Garage1.0.exe.config
+C:\Users\NaxNordic AB\Documents\Visual Studio 2015\Projects\Garage1.0\Garage1.0\Garage1.0\obj\Debug\Garage1.0.exe
+C:\Users\NaxNordic AB\Documents\Visual Studio 2015\Projects\Garage1.0\Garage1.0\Garage1.0\obj\Debug\Garage1.0.pdb
+C:\Users\NaxNordic AB\Documents\Visual Studio 2015\Projects\Garage1.0\Garage1.0\Garage1.0\bin\Debug\Garage1.0.exe
+C:\Users\NaxNordic AB\Documents\Visual Studio 2015\Projects\Garage1.0\Garage1.0\Garage1.0\bin\Debug\Garage1.0.pdb
+C:\Users\NaxNordic AB\Documents\Visual Studio 2015\Projects\Garage1.0\Garage1.0\Garage1.0\obj\Debug\Garage1.0.csprojResolveAssemblyReference.cache

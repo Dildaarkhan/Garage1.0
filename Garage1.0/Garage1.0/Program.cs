@@ -96,11 +96,11 @@ namespace Garage1._0
                         //string regNumber = Console.ReadLine();
 
                         Vehicle tempar = garage.Where(tempveh => tempveh.RegistrationNumber == "xew309").FirstOrDefault();
-                        foreach (var item in garage)
-                        {
-                            Console.WriteLine(item.RegistrationNumber);
-                        }
-                        Console.ReadLine();                      
+                        //foreach (var item in garage)
+                        //{
+                        //    Console.WriteLine(item.RegistrationNumber);
+                        //}
+                        Console.ReadLine();
                         break;
 
                     case 0:
