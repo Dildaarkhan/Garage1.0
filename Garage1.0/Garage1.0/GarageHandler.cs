@@ -6,8 +6,5 @@ using System.Threading.Tasks;
 
 namespace Garage1._0
 {
-    //class GarageHandler<T> : Garage<T> where T : Vehicle
-    //{
-
-    //}
+    
 }

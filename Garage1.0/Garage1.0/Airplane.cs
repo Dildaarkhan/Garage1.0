@@ -8,13 +8,8 @@ namespace Garage1._0
 {
     class Airplane : Vehicle
     {
-        private string shape;
+        public string Shape { get; set; }
 
-        public string Shape
-        {
-            get { return shape; }
-            set { shape = value; }
-        }
 
     }
 }

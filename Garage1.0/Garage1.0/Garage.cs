@@ -51,6 +51,8 @@ namespace Garage1._0
             return default(T);
         }
 
+        
+
         public IEnumerator<T> GetEnumerator()
         {
             for (int i = 0; i < Capacity; i++)
@@ -67,6 +69,7 @@ namespace Garage1._0
             return GetEnumerator();
         }
 
+        
     }
 
 }
