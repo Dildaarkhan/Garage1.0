@@ -11,6 +11,9 @@ namespace Garage1._0
         public string Make { get; set; }
         public string Model { get; set; }
         public string Year { get; set; }
+        public string Type { get; set; }
+        public string FuelType { get; set; }
+        public string CylinderType { get; set; }
 
     }
 }

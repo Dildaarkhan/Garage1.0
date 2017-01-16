@@ -8,6 +8,8 @@ namespace Garage1._0
 {
     class Boat : Vehicle
     {
+        public string FuelType { get; set; }
+        public string Type { get; set; }
 
     }
 }

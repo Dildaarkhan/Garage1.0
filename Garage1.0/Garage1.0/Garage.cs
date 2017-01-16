@@ -10,7 +10,7 @@ namespace Garage1._0
     class Garage<T> : IEnumerable<T> where T : Vehicle
     {
 
-        private T[] elements;
+        private T[] vehicles;
 
         public int Capacity { get; }
         public int Count { get; private set; }
@@ -18,18 +18,18 @@ namespace Garage1._0
         public Garage(int capacity)
         {
             Capacity = capacity;
-            elements = new T[capacity];
+            vehicles = new T[capacity];
         }
 
-        public bool Add(T element)
+        public bool Add(T vehicle)
         {
             if (Count >= Capacity) return false;
 
             for (int i = 0; i < Capacity; i++)
             {
-                if (elements[i] == null)
+                if (vehicles[i] == null)
                 {
-                    elements[i] = element;
+                    vehicles[i] = vehicle;
                     Count += 1;
                     return true;
                 }
@@ -37,15 +37,15 @@ namespace Garage1._0
             return false;
         }
 
-        public T Remove(T element)
+        public T Remove(T vehicle)
         {
             for (int i = 0; i < Capacity; i++)
             {
-                if (elements[i].Equals(element))
+                if (vehicles[i].Equals(vehicle))
                 {
-                    elements[i] = null;
+                    vehicles[i] = null;
                     Count -= 1;
-                    return element;
+                    return vehicle;
                 }
             }
             return default(T);
@@ -57,9 +57,9 @@ namespace Garage1._0
         {
             for (int i = 0; i < Capacity; i++)
             {
-                if (elements[i] != null)
+                if (vehicles[i] != null)
                 {
-                    yield return elements[i];
+                    yield return vehicles[i];
                 }
             }
         }

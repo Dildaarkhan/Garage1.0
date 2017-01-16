@@ -8,8 +8,12 @@ namespace Garage1._0
 {
     class Airplane : Vehicle
     {
-        public string Shape { get; set; }
-
-
+        public string WingsShape { get; set; }
+        public string FuelType { get; set; }
+        public override string ToString()
+        {
+            return $"Registration number=,{ base.RegistrationNumber}"
+                +"";
+        }
     }
 }

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Garage1._0
 {
-    enum FuelType { Gasoline, Diesel, Hybrid, Pedal ,Electric, Air}
+    // enum FuelType { Gasoline, Diesel, Hybrid, Pedal ,Electric, Air}
 
     class Vehicle
     {
@@ -15,13 +15,13 @@ namespace Garage1._0
         
         public string Color { get; set; }
 
-        public FuelType Fuel;
+      //  public FuelType Fuel;
 
 
         public int NumberOfWheels { get; set; }
 
-        public string Design { get; set; }
+        //public string Design { get; set; }
 
-
+        public int NumberOfSeats { get; set; }
     }
 }
